@@ -1,6 +1,6 @@
 module Imprint
   class Tracer
-    TRACER_HEADER    = 'HTTP_IMPRINTID'
+    TRACER_HEADER    = 'HTTP_X_B3_TRACEID'
     TRACER_KEY       = 'IMPRINTID'
     RAILS_REQUEST_ID = "action_dispatch.request_id"
 
